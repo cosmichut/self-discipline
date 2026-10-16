@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Self-Discipline</string>
+    <string name="accessibility_service_description">Self-Discipline uses this service to keep the focus screen on top during a lock session. It never reads, collects, or uploads any screen content.</string>
+    <string name="accessibility_service_summary">Keeps the focus screen in front during lock sessions</string>
+    <string name="walking_channel_name">Walking Detection</string>
+    <string name="walking_notification_text">Walking detection is running: the screen locks while you walk</string>
+    <string name="lock_title_focus">Focusing</string>
+    <string name="lock_title_walking">Walking — please don\'t look at your phone</string>
+    <string name="lock_hint">Put down your phone and focus on the moment</string>
+    <string name="lock_exit_title">Exit Session?</string>
+    <string name="lock_exit_message_manual">About %1$d minute(s) left to succeed.\nExiting now will be recorded as a failure. Exit anyway?</string>
+    <string name="lock_exit_message_walking">Release the walking lock? Please stay safe while walking.</string>
+    <string name="lock_exit_keep">Keep Focusing</string>
+    <string name="lock_exit_confirm">Exit</string>
+    <string name="admin_enabled_toast">Device admin activated</string>
+    <string name="admin_disabled_toast">Device admin deactivated. The app can now be uninstalled normally</string>
+    <string name="alert_channel_name">Service Status Alerts</string>
+    <string name="alert_accessibility_lost">Accessibility service was revoked by the system. Tap to open the app and re-enable it, or locking won\'t work</string>
+    <string name="limit_overlay_title">%1$s has hit today\'s limit</string>
+    <string name="limit_overlay_subtitle">Daily limit: %1$d min · See you tomorrow</string>
+    <string name="admin_explanation">Once activated, the app cannot be uninstalled directly — this prevents bypassing locks by uninstalling. You can deactivate it anytime in Settings.</string>
+    <string name="overlay_exit_hint_walking">Emergency release: hold here for 1s</string>
+    <string name="overlay_exit_hint_limit">Emergency release: hold here for 2 minutes</string>
+</resources>

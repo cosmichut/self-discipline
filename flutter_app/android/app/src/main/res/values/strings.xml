@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自律助手</string>
+    <string name="accessibility_service_description">自律助手使用此服务在锁定期间阻止切换到其他应用。不会读取、收集或上传任何屏幕内容。</string>
+    <string name="accessibility_service_summary">锁定期间保持专注界面在前台</string>
+    <string name="walking_channel_name">行走检测</string>
+    <string name="walking_notification_text">行走检测运行中：走路时将自动锁定屏幕</string>
+    <string name="lock_title_focus">专注中</string>
+    <string name="lock_title_walking">行走中，请勿看手机</string>
+    <string name="lock_hint">放下手机，专注当下</string>
+    <string name="lock_exit_title">确认退出</string>
+    <string name="lock_exit_message_manual">再坚持约 %1$d 分钟就能成功。\n现在退出将记为失败，确定要退出吗？</string>
+    <string name="lock_exit_message_walking">确定要解除行走锁定吗？走路看手机请注意安全。</string>
+    <string name="lock_exit_keep">继续专注</string>
+    <string name="lock_exit_confirm">退出</string>
+    <string name="admin_enabled_toast">设备管理员已激活</string>
+    <string name="admin_disabled_toast">设备管理员已停用，现在可以正常卸载应用</string>
+    <string name="alert_channel_name">服务状态提醒</string>
+    <string name="alert_accessibility_lost">无障碍服务已失效（可能被系统关闭），点击打开 App 重新开启，否则锁定功能不可用</string>
+    <string name="limit_overlay_title">%1$s 今日已达上限</string>
+    <string name="limit_overlay_subtitle">每日限额 %1$d 分钟 · 明天再来</string>
+    <string name="admin_explanation">激活后应用无法被直接卸载，防止锁定期间通过卸载绕过。可在设置页随时停用。</string>
+    <string name="overlay_exit_hint_walking">紧急解除：长按此处 1 秒</string>
+    <string name="overlay_exit_hint_limit">紧急解除：长按此处 2 分钟</string>
+</resources>

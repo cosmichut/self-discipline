@@ -1,0 +1,29 @@
+# 构建产物与缓存
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/android/local.properties
+flutter_app/android/.gradle/
+flutter_app/android/app/debug/
+flutter_app/android/app/profile/
+flutter_app/android/app/release/
+pub_cache/
+*.apk
+*.aab
+*.log
+
+# 编辑器与系统
+.DS_Store
+*.swp
+*.swo
+
+# 签名密钥（任何情况下都不入库）
+*.keystore
+*.jks
+key.properties
+**/key.properties
+
+# 本机工具会话数据（不属于项目）
+.claude/

@@ -1,0 +1,68 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+// versionCode 从版本号自动派生：major*10000 + minor*100 + patch
+// 例如 1.0.1 → 10001，1.0.11 → 10011，单调递增保证可覆盖升级
+def versionParts = flutterVersionName.tokenize('.')
+def computedVersionCode = versionParts[0].toInteger() * 10000 +
+    (versionParts.size() > 1 ? versionParts[1].toInteger() : 0) * 100 +
+    (versionParts.size() > 2 ? versionParts[2].toInteger() : 0)
+
+android {
+    namespace "io.github.cosmichut"
+    compileSdk 35
+    ndkVersion "25.1.8937393"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "io.github.cosmichut"
+        minSdk 24
+        targetSdk 35
+        versionCode computedVersionCode
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            // 开源项目默认使用 debug 签名，方便任何人构建出可安装的 APK。
+            // 如需正式发布，请生成自己的 keystore 并在此配置，参见 README「签名说明」。
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.13.1'
+}
