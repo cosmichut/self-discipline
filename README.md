@@ -61,7 +61,9 @@
 
 ### 自动更新：Obtainium（推荐海外/开源用户）
 
-安装 [Obtainium](https://github.com/ImranR98/Obtainium)（开源的应用更新追踪器），添加仓库地址 `https://github.com/cosmichut/self-discipline`，即可自动获取后续版本更新。
+[![Get it on Obtainium](docs/badge_obtainium.png)](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/cosmichut/self-discipline)
+
+安装 [Obtainium](https://github.com/ImranR98/Obtainium)（开源的应用更新追踪器），点击上方徽章一键添加本仓库，或手动添加地址 `https://github.com/cosmichut/self-discipline`，即可自动获取后续版本更新。
 
 ### 常见问题：无障碍服务无法开启？
 

@@ -65,7 +65,9 @@ An Android app that helps you focus on study/work and put your phone down while 
 
 ### Auto-updates via Obtainium (recommended)
 
-Install [Obtainium](https://github.com/ImranR98/Obtainium) (open-source app update tracker) and add `https://github.com/cosmichut/self-discipline` as a source to get automatic update notifications for future releases.
+[![Get it on Obtainium](docs/badge_obtainium.png)](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/cosmichut/self-discipline)
+
+Install [Obtainium](https://github.com/ImranR98/Obtainium) (open-source app update tracker) and tap the badge above to add this repo in one tap — or manually add `https://github.com/cosmichut/self-discipline` as a source to get automatic update notifications for future releases.
 
 > Note: F-Droid/IzzyOnDroid inclusion is unlikely because the PolyForm Noncommercial license (by design) is not OSI/FSF-approved. GitHub Releases + Obtainium is the intended distribution path.
 
