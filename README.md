@@ -59,6 +59,10 @@
 2. 允许「未知来源」安装
 3. 首次启动按引导开启**无障碍服务**（必需），其余权限按需授权
 
+### 自动更新：Obtainium（推荐海外/开源用户）
+
+安装 [Obtainium](https://github.com/ImranR98/Obtainium)（开源的应用更新追踪器），添加仓库地址 `https://github.com/cosmichut/self-discipline`，即可自动获取后续版本更新。
+
 ### 常见问题：无障碍服务无法开启？
 
 侧载（非应用市场）安装的应用在荣耀 MagicOS、小米 MIUI、原生 Android 13+ 上会被系统标记为「受限应用」，开启无障碍时会提示"受限制的设置"或按钮灰色不可点。解决方法：

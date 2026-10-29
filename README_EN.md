@@ -63,6 +63,12 @@ An Android app that helps you focus on study/work and put your phone down while 
 2. Allow "install from unknown sources"
 3. On first launch, follow the guide to enable the **Accessibility Service** (required)
 
+### Auto-updates via Obtainium (recommended)
+
+Install [Obtainium](https://github.com/ImranR98/Obtainium) (open-source app update tracker) and add `https://github.com/cosmichut/self-discipline` as a source to get automatic update notifications for future releases.
+
+> Note: F-Droid/IzzyOnDroid inclusion is unlikely because the PolyForm Noncommercial license (by design) is not OSI/FSF-approved. GitHub Releases + Obtainium is the intended distribution path.
+
 ### Accessibility toggle greyed out?
 
 Apps installed outside an app store are restricted on stock Android 13+ / Samsung / Honor / Xiaomi. Lift the restriction first:
